@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418794186205",
+    "project_id": "multitasker-5ba9d",
+    "storage_bucket": "multitasker-5ba9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418794186205:android:0b0b7897d8a0e0fbe28234",
+        "android_client_info": {
+          "package_name": "com.example.multitakerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418794186205-6jg5l2rmeinr3ups6fp9uioqvmmqkt80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgEFhwZ2hH9k97L2_g1VVkzHBDIsNv9-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418794186205-6jg5l2rmeinr3ups6fp9uioqvmmqkt80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
