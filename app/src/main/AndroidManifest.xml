@@ -10,10 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MultiTakerApp">
         <activity
-            android:name=".Auth.LoginMainActivity"
+            android:name=".Auth.UploadImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.AllHostelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.AddHostelActivity"
             android:exported="false" />
         <activity
             android:name=".Auth.SelectLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Auth.LoginMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,8 +35,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

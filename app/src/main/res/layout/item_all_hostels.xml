@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/_8sdp">
+
+        <ImageView
+            android:id="@+id/hostel_pic_IMG"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/hostel" />
+
+        <TextView
+            android:id="@+id/hostel_name_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_toEndOf="@+id/hostel_pic_IMG"
+            android:text="Hostel Name: "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hostel_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hostel_name_TV"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_toEndOf="@+id/hostel_pic_IMG"
+            android:text="Contact No:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hostel_contact_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hostel_name_TV"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_toEndOf="@+id/hostel_contact"
+
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hostel_contact_TV"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_toEndOf="@+id/hostel_pic_IMG"
+            android:text="Rooms-"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rooms_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hostel_contact_TV"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_toEndOf="@+id/room"
+            android:text="0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/room"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_toEndOf="@+id/hostel_pic_IMG"
+            android:text="Rent :"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rent_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rooms_TV"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_toEndOf="@+id/room"
+            android:text="0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rent"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_toEndOf="@+id/hostel_pic_IMG"
+            android:text="Area :"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/area_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rent_TV"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_toEndOf="@+id/room"
+            android:text="aaa"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

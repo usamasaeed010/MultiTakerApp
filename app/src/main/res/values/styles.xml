@@ -41,4 +41,8 @@
         <item name="itemTextColor">@drawable/bottom_nav_selector</item>
         <item name="itemIconTint">@drawable/bottom_nav_selector</item>
     </style>
+
+    <style name="Theme.OwnFarmer.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.OwnFarmer.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

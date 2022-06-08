@@ -31,4 +31,7 @@
     <string name="signup_btn_text">Sign Up</string>
     <string name="City">City</string>
     <string name="signup_city">Enter City Name</string>
+    <string name="nav_header_desc">Navigation Header</string>
+    <string name="navigation_drawer_open">Nav Open</string>
+    <string name="navigation_drawer_close">Nav Close</string>
 </resources>

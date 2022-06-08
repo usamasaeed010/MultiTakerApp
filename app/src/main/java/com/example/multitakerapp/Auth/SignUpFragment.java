@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.example.multitakerapp.Model.UserProfile;
 import com.example.multitakerapp.R;
 import com.example.multitakerapp.Utlis.Constants;
+import com.example.multitakerapp.Utlis.MysharedPreferences;
 import com.example.multitakerapp.databinding.FragmentSignUpBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -73,7 +74,7 @@ public class SignUpFragment extends Fragment {
         firebaseDatabase = FirebaseDatabase.getInstance().getReference().child("LoginInfo");
 
 
-        selectUser = getActivity().getIntent().getStringExtra(Constants.SELECT_USER);
+        selectUser = MysharedPreferences.getInstance(getActivity()).getSelectRole(Constants.SELECT_USER);
 
         if (selectUser.contains(Constants.USER)) {
             binding.cityOutlinedTextField.setVisibility(View.GONE);
@@ -189,6 +190,7 @@ public class SignUpFragment extends Fragment {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 for (DataSnapshot datas : dataSnapshot.getChildren()) {
                     String familyname = datas.child("Email").getValue().toString();
+
                 }
             }
 

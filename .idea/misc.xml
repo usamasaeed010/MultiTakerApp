@@ -7,13 +7,26 @@
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/drawable/bottom_nav_selector.xml" value="0.1705" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/drawable/floating_plate.xml" value="0.116" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/drawable/login_bg_img.xml" value="0.1705" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/drawable/side_nav_bar.xml" value="0.1775" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/font/nunito_sans.xml" value="0.28072916666666664" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/font/nunito_sans_extrabold.xml" value="0.28072916666666664" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/activity_add_hostel.xml" value="0.33" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/activity_all_hostel.xml" value="0.2421875" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/activity_login_main.xml" value="0.2421875" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/activity_select_login.xml" value="0.22" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/activity_splash.xml" value="0.2421875" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/activity_upload_image.xml" value="0.2421875" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/app_bar_main.xml" value="0.22" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/fragment_home.xml" value="0.2421875" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/fragment_sign_up.xml" value="0.2421875" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/item_all_hostels.xml" value="0.33" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/nav_header_main.xml" value="0.2421875" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/single_list_item.xml" value="0.2421875" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/layout/slider_view.xml" value="0.2078125" />
+        <entry key="..\:/Users/Muhammad/AndroidStudioProjects/MultiTakerApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
       </map>
     </option>
   </component>
